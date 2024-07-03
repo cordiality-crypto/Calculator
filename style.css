@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply bg-pink-600 h-28 text-center text-5xl rounded-xl pt-7 hover:bg-pink-700 shadow-md hover:shadow-inner cursor-pointer
+    }
+}
